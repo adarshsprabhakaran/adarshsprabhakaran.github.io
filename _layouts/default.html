@@ -1,0 +1,10 @@
+nav class=col-md-3 col-lg-2 d-md-block bg-light bd-sidebar p-3 border-end
+  {% for category in site.categories %}
+    h6 class=text-uppercase text-muted fw-bold mt-3 mb-2{{ category  first }}h6
+    div class=bd-links
+      {% for post in category  last %}
+        a href={{ post.url }} class=d-block py-1 text-decoration-none text-secondary{{ post.title }}a
+      {% endfor %}
+    div
+  {% endfor %}
+nav

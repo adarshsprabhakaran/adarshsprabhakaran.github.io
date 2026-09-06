@@ -1,3 +1,5 @@
 title: Adarsh Prabhakaran
-description: Personal Portfolio & Engineering Blog
-theme: jekyll-theme-minimal
+description: Multimedia Engineering, Power Electronics & Technology
+url: "https://adarshsprabhakaran.github.io"
+baseurl: ""
+markdown: kramdown
