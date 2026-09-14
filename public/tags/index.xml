@@ -6,7 +6,33 @@
     <description>Recent content in Tags on Pathfinder</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2026 </copyright>
+    <copyright>&lt;div style=&#34;font-size: 0.85rem; line-height: 1.5; color: var(--color-neutral-400);&#34;&gt;
+  Copyright © 2026Designed and built with all the love in the world by &lt;span style=&#34;font-weight: 600; color: var(--color-neutral-200);&#34;&gt;Adarsh Prabhakaran&lt;/span&gt; with the help of our contributors.&lt;br&gt;
+  Code licensed &lt;a href=&#34;#&#34; onclick=&#34;document.getElementById(&#39;mit-modal&#39;).style.display=&#39;flex&#39;; return false;&#34; style=&#34;text-decoration: underline; cursor: pointer;&#34;&gt;MIT&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;style&gt;
+  /* Forces the Hugo &amp; Blowfish attribution text to match the license text styling */
+  footer .text-sm, footer span, footer a {
+    font-size: 0.85rem !important;
+  }
+&lt;/style&gt;
+
+&lt;div id=&#34;mit-modal&#34; style=&#34;display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 9999; justify-content: center; align-items: center;&#34;&gt;
+  &lt;div style=&#34;background: var(--color-neutral-900, #111827); color: var(--color-neutral-100, #f3f4f6); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-neutral-700, #374151); max-width: 600px; width: 90%; max-height: 85vh; display: flex; flex-direction: column; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);&#34;&gt;
+    &lt;h3 style=&#34;margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold; border-bottom: 1px solid var(--color-neutral-700, #374151); padding-bottom: 0.5rem;&#34;&gt;MIT License&lt;/h3&gt;
+    &lt;div style=&#34;font-size: 0.85rem; line-height: 1.6; overflow-y: auto; margin-bottom: 1.5rem; text-align: left; padding-right: 0.5rem;&#34;&gt;
+      Copyright (c) 2026 Adarsh Prabhakaran&lt;br&gt;&lt;br&gt;
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &#34;Software&#34;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;br&gt;&lt;br&gt;
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;br&gt;&lt;br&gt;
+      THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    &lt;/div&gt;
+    &lt;div style=&#34;text-align: right;&#34;&gt;
+      &lt;button onclick=&#34;document.getElementById(&#39;mit-modal&#39;).style.display=&#39;none&#39;;&#34; style=&#34;padding: 0.5rem 1.25rem; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.9rem;&#34;&gt;Close&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>

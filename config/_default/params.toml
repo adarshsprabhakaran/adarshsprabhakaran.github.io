@@ -4,7 +4,34 @@
 #
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
+copyright = """
+<div style="font-size: 0.85rem; line-height: 1.5; color: var(--color-neutral-400);">
+  Copyright © 2026Designed and built with all the love in the world by <span style="font-weight: 600; color: var(--color-neutral-200);">Adarsh Prabhakaran</span> with the help of our contributors.<br>
+  Code licensed <a href="#" onclick="document.getElementById('mit-modal').style.display='flex'; return false;" style="text-decoration: underline; cursor: pointer;">MIT</a>.
+</div>
 
+<style>
+  /* Forces the Hugo & Blowfish attribution text to match the license text styling */
+  footer .text-sm, footer span, footer a {
+    font-size: 0.85rem !important;
+  }
+</style>
+
+<div id="mit-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); z-index: 9999; justify-content: center; align-items: center;">
+  <div style="background: var(--color-neutral-900, #111827); color: var(--color-neutral-100, #f3f4f6); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-neutral-700, #374151); max-width: 600px; width: 90%; max-height: 85vh; display: flex; flex-direction: column; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);">
+    <h3 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.25rem; font-weight: bold; border-bottom: 1px solid var(--color-neutral-700, #374151); padding-bottom: 0.5rem;">MIT License</h3>
+    <div style="font-size: 0.85rem; line-height: 1.6; overflow-y: auto; margin-bottom: 1.5rem; text-align: left; padding-right: 0.5rem;">
+      Copyright (c) 2026 Adarsh Prabhakaran<br><br>
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br><br>
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br><br>
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </div>
+    <div style="text-align: right;">
+      <button onclick="document.getElementById('mit-modal').style.display='none';" style="padding: 0.5rem 1.25rem; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600; font-size: 0.9rem;">Close</button>
+    </div>
+  </div>
+</div>
+"""
 colorScheme = "blowfish"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
@@ -54,7 +81,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 # metaDescriptionOrder = ["summary", "description", "site"] # Controls the fallback order for the HTML meta description. Valid values are "summary", "description", and "site".
 
 [header]
-  layout = "fixed"
+  layout = "floating"
   logo = "img/logo.png"
   showTitle = true
   showThemeSwitcher = true

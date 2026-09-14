@@ -5,7 +5,6 @@
 theme = "blowfish" 
 baseURL = "https://adarshsprabhakaran.github.io/"
 title = "Pathfinder"
-copyright = "© 2026 Adarsh Prabhakaran. Released under the [MIT License](https://opensource.org/licenses/MIT)."
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
