@@ -1,3 +1,88 @@
 ---
-title: "About"
+title: "Portfolio"
+type: "page"
+showDate: false
+showReadingTime: false
+showWordCount: false
+showAuthor: false
+showToc: false
 ---
+<style>
+  /* Force the text block to expand to the full width of the screen */
+  .prose, .max-w-prose {
+    max-width: 100% !important;
+  }
+</style>
+## Adarsh Prabhakaran Sobhana
+**AIVI2 Software Electronic Project Leader | Renault OpenR Link**
+📍 Thiruvananthapuram, Keralam, India (Open for Relocation) | 📱 +91-9048800233 | ✉️ adarshsprabhakaran@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/adarshps) | 🔗 [GitHub](https://github.com/adarshsprabhakaran)
+
+---
+
+### Professional Summary
+
+Automotive Software Electronic Project Leader (SWEPL) specializing in Android Automotive OS (AAOS/OpenR Link) infotainment platforms across Renault, Dacia, and Nissan programs. Experienced in bench integration, ECU software flashing, DDT2000 diagnostics, vehicle bus tracing (CAN/Ethernet), and cabin acoustic calibration (Arkamys/Cerence). Holds an M.Tech in Power Electronics with a track record in factory software delivery, line-defect root cause analysis, and on-site international vehicle launch support.
+
+---
+
+### Technical Skills
+
+*   **Automotive OS & Audio Architecture:** Android Automotive OS (AAOS / OpenR Link), Android Audio HAL (HIDL/AIDL), ALSA, Audio Policy Service, AudioFlinger, Multi-zone Routing, Audio Focus
+*   **Video Protocols & Display:** GMSL2/GMSL3, FPD-Link III/IV, APIX3, MIPI DSI/DSI-2, eDP, OpenLDI (LVDS), Ethernet AVB (IEEE 1722 AVTP), HDCP 1.4/2.2
+*   **Codecs, Media & Tuner:** AAC, MP3, FLAC, WAV, PCM, OGG, H.264 (AVC), H.265 (HEVC), VP9, MP4/MKV container playback; Tuner HAL (AM, FM/RDS, DAB/DAB+)
+*   **Projection & Connectivity:** Apple CarPlay (Wired/Wireless), Android Auto (Wired/Wireless), projection stack integration, Bluetooth Audio (A2DP, AVRCP, HFP), Wi-Fi, USB-C Media
+*   **Vehicle Buses & Diagnostics:** Automotive Ethernet, CAN, CAN-FD, UDS (ISO 14229), I2S, I2C, SPI, UART; DDT2000, Vector CANalyzer, Wireshark
+*   **Acoustics & Engineering Tools:** Arkamys Audio Tuning, Cerence (Nuance) Voice Integration; C, C++, Python, Git, JFrog, JIRA, Confluence, draw.io, 4M / 5-Why / 8D RCA
+*   **Simulation & Embedded Hardware:** MATLAB Simulink, SCILAB, NI Multisim, LTspice, ARM Cortex Microcontrollers, Raspberry Pi Zero
+
+---
+
+### Professional Experience
+
+**Renault Group, India**
+*Software Electronic Project Leader (AIVI2)* | July 2024 -- Present
+*   Lead software delivery, bench integration, and validation for OpenR Link (AIVI2) infotainment across Renault Duster III, Nissan Tekton, Dacia Spring EV, and Renault Kwid EV platforms.
+*   Flashed ECUs, managed variant coding, and configured parameters on test benches using DDT2000, Builder, and TradConfig.
+*   Diagnosed vehicle bus traffic, multi-zone audio routing policies, and multimedia issues using Vector CANalyzer (CAN/CAN-FD) and Wireshark (analyzing DoIP and Automotive Ethernet traces).
+*   Validated smartphone projection stacks (Apple CarPlay and Android Auto, wired/wireless) and verified display SerDes link integrity (GMSL2/MIPI) across head unit and cluster variants.
+*   Developed a Python-based configuration and calibration comparator, cutting manual verification time from 1 hour to under 20 minutes (66% reduction) while preventing human error during release checks.
+*   Supported the Vehicle Electronic Process (Diagnostics) team during factory vehicle builds, diagnosing and clearing DTCs via UDS/DoIP to ensure smooth end-of-line verification across all milestones.
+*   Deployed on-site to South Africa for market launch support, flashing IVI software directly on vehicles and resolving line defects using 4M / 5-Why root cause analysis.
+*   Maintained software release baselines in RECORD for Transversal Traceability, and tracked factory/aftersales software parts traceability through FHU.
+*   Validated cabin acoustic tuning files (Arkamys) and voice recognition integration (Cerence) across different vehicle variants.
+*   Mentored and onboarded newly joined Graduate Engineering Trainees (GETs), conducting technical training on automotive software architectures, diagnostic toolchains, and delivery workflows.
+
+**Chegg India Pvt. Ltd. [FREELANCE]**
+*Subject Matter Expert (Electrical Engineering)* | Nov 2019 - May 2024
+*   Delivered technical problem-solving and academic consultation across core electrical circuits, power electronics, Electromagnetic Theory and control systems.
+*   Authored step-by-step analytical solutions and verified circuit schematics for advanced engineering problems.
+
+---
+
+### Education
+
+*   **M.Tech. (Power Electronics (EE))** — College of Engineering Trivandrum | 8.73/10 | 2022--2024
+*   **B.Tech. (Electrical & Electronics Engg.)** — UCE Thodupuzha | 8.23/10 | 2014--2018
+
+---
+
+### Certifications & Specialized Training
+
+*   **NPTEL / MOOC by IIT:** Digital Control in Switched Mode Power Supplies and FPGA-Based Prototyping (Elite-- Aggr.71%).
+*   **NSDC / IASC:** Industrial Automation Specialist (NSQF Level-5 Certification).
+
+---
+
+### Academic Projects
+
+**An Efficient DC-DC Converter with Inherent Voltage Balancing Capability for LVDC Microgrid Applications**
+*M.Tech Thesis | CET Trivandrum* | April 2023 -- May 2024
+*   Designed, simulated, and developed a 108W hardware prototype operating in open-loop conditions to evaluate converter efficiency and voltage balancing capability.
+*   Validated steady-state performance and dynamic voltage regulation tailored for Low-Voltage DC (LVDC) microgrid architectures.
+
+---
+
+### Achievements & Honors
+
+*   **Best Employee Award (VP Recognition) -- Renault Group:** Recognized by Vice President for resolving critical SW issues in OpenR Link Multimedia of Renault Duster III and Nissan Tekton, ensuring on-schedule vehicle launch.
