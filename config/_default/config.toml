@@ -1,5 +1,4 @@
 baseURL = "https://adarshsprabhakaran.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
 theme = "blowfish"
