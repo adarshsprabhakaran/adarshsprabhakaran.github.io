@@ -54,8 +54,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 # metaDescriptionOrder = ["summary", "description", "site"] # Controls the fallback order for the HTML meta description. Valid values are "summary", "description", and "site".
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur, floating
-  # mobileMenuStyle = "fullscreen" # valid options: fullscreen, dropdown
+  layout = "fixed"
+  logo = "img/logo.png"
+  showTitle = true
+  showThemeSwitcher = true
+  showLanguageSwitcher = true
+[search]
+  enable = true                # Activates site search indexing
+  showInHeader = true          # Places the search button ("Ctrl K") on the far right
 
 [footer]
   showMenu = true

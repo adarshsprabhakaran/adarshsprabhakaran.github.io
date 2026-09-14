@@ -5,9 +5,14 @@ weight = 1
 title = "Pathfinder"
 
 [params]
-  displayName = "EN"
   isoCode = "en"
   rtl = false
+  languageCode = "en"
+  languageName = "English"
+  displayName = "EN"
+  weight = 1
+  title = "Pathfinder"
+  logo = "img/logo.png"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
