@@ -6,6 +6,10 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 showToc: false
+menu:
+  main:
+    name: "Home"
+    weight: 10
 ---
 <style>
   /* Force the text block to expand to the full width of the screen */
