@@ -1,6 +1,13 @@
 ---
 title: "Automotive Audio Tuning Measurements"
+date: 2026-10-25
 ---
+<style>
+  /* Force the text block to expand to the full width of the screen */
+  .prose, .max-w-prose {
+    max-width: 100% !important;
+  }
+</style>
 
 In 2023, the Audio Engineering Society (AES) Technical Committee on Automotive Audio published a white paper [1] proposing a standardized measurement configuration for in-car audio systems. This article builds on that work, using the same configuration to make a more comprehensive suite of measurements, including seat-to-seat spectral uniformity, THD, advanced impulsive distortion, as well as creating a foundation for a much wider range of in-car measurements.
 
